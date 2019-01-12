@@ -6,7 +6,8 @@ import Select from "./select";
 class Form extends Component {
   state = {
     data: {},
-    errors: {}
+    errors: {},
+    payload: {}
   };
 
   validate = () => {
