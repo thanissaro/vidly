@@ -11,7 +11,7 @@ import SearchBox from "./searchBox";
 
 class Movies extends Component {
   state = {
-    moviess: [],
+    movies: [],
     genres: [],
     currentPage: 1,
     pageSize: 4,
