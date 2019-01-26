@@ -13,7 +13,7 @@ class Movies extends Component {
   state = {
     movies: [],
     genres: [],
-    currentPage: 2,
+    currentPage: 1,
     pageSize: 4,
     searchQuery: "",
     selectedGenre: null,
